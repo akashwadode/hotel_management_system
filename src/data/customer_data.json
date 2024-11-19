@@ -1,0 +1,173 @@
+{
+    "customers": [
+      {
+        "CustomerID": 1,
+        "FirstName": "John",
+        "LastName": "Doe",
+        "PhoneNumber": "1234567890",
+        "DOB": "1990-01-15",
+        "Email": "john.doe@example.com",
+        "Reservations": [
+          {
+            "ReservationID": 101,
+            "RoomNo": 201,
+            "CheckInDate": "2024-11-20",
+            "CheckOutDate": "2024-11-25",
+            "Status": "Checked In",
+            "Room": {
+              "Category": "Double",
+              "PricePerNight": 100,
+              "Status": "Occupied"
+            },
+            "Bill": {
+              "BillID": 301,
+              "RoomCharges": 500,
+              "FoodCharges": 120,
+              "TotalAmount": 620,
+              "Status": "Unpaid",
+              "PaymentDate": null
+            },
+            "Orders": [
+              {
+                "OrderID": 401,
+                "OrderDate": "2024-11-21",
+                "Items": [
+                  {
+                    "ItemID": 501,
+                    "ItemName": "Pizza",
+                    "PricePerItem": 15,
+                    "Category": "Main Course",
+                    "Quantity": 2
+                  },
+                  {
+                    "ItemID": 502,
+                    "ItemName": "Coke",
+                    "PricePerItem": 3,
+                    "Category": "Beverage",
+                    "Quantity": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "CustomerID": 2,
+        "FirstName": "Alice",
+        "LastName": "Smith",
+        "PhoneNumber": "9876543210",
+        "DOB": "1985-05-12",
+        "Email": "alice.smith@example.com",
+        "Reservations": [
+          {
+            "ReservationID": 102,
+            "RoomNo": 202,
+            "CheckInDate": "2024-11-22",
+            "CheckOutDate": "2024-11-27",
+            "Status": "Confirmed",
+            "Room": {
+              "Category": "Suite",
+              "PricePerNight": 200,
+              "Status": "Available"
+            },
+            "Bill": {
+              "BillID": 302,
+              "RoomCharges": 1000,
+              "FoodCharges": 150,
+              "TotalAmount": 1150,
+              "Status": "Unpaid",
+              "PaymentDate": null
+            },
+            "Orders": []
+          }
+        ]
+      },
+      {
+        "CustomerID": 3,
+        "FirstName": "Bob",
+        "LastName": "Brown",
+        "PhoneNumber": "5551234567",
+        "DOB": "1992-09-25",
+        "Email": "bob.brown@example.com",
+        "Reservations": [
+          {
+            "ReservationID": 103,
+            "RoomNo": 203,
+            "CheckInDate": "2024-11-18",
+            "CheckOutDate": "2024-11-23",
+            "Status": "Cancelled",
+            "Room": {
+              "Category": "Single",
+              "PricePerNight": 80,
+              "Status": "Available"
+            },
+            "Bill": null,
+            "Orders": []
+          }
+        ]
+      },
+      {
+        "CustomerID": 4,
+        "FirstName": "Emma",
+        "LastName": "Davis",
+        "PhoneNumber": "4449876543",
+        "DOB": "1995-07-10",
+        "Email": "emma.davis@example.com",
+        "Reservations": []
+      },
+      {
+        "CustomerID": 5,
+        "FirstName": "Liam",
+        "LastName": "Johnson",
+        "PhoneNumber": "3332221111",
+        "DOB": "1988-03-18",
+        "Email": "liam.johnson@example.com",
+        "Reservations": [
+          {
+            "ReservationID": 104,
+            "RoomNo": 204,
+            "CheckInDate": "2024-11-19",
+            "CheckOutDate": "2024-11-24",
+            "Status": "Checked Out",
+            "Room": {
+              "Category": "Suite",
+              "PricePerNight": 200,
+              "Status": "Available"
+            },
+            "Bill": {
+              "BillID": 303,
+              "RoomCharges": 1000,
+              "FoodCharges": 200,
+              "TotalAmount": 1200,
+              "Status": "Paid",
+              "PaymentDate": "2024-11-24"
+            },
+            "Orders": [
+              {
+                "OrderID": 402,
+                "OrderDate": "2024-11-20",
+                "Items": [
+                  {
+                    "ItemID": 503,
+                    "ItemName": "Burger",
+                    "PricePerItem": 10,
+                    "Category": "Main Course",
+                    "Quantity": 3
+                  },
+                  {
+                    "ItemID": 504,
+                    "ItemName": "Fries",
+                    "PricePerItem": 5,
+                    "Category": "Side Dish",
+                    "Quantity": 2
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
